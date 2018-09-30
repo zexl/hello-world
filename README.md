@@ -18,7 +18,6 @@ for (num,value) in enumerate(file):
     line = value.strip('\n').split('/')
     poolid=pool[line[0]]
     imagename=line[1]
-
     #insert into rf_image
     # (image_id,disk_id,image_name,bind_status,fault_status,status,enable_status,pool_id,creater,create_time)
     #  values('1','1','GZNXG0100000001','0','0','1','1','1','zzx',now());
