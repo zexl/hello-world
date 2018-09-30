@@ -6,7 +6,7 @@ import fileinput
 Dir="/home/yw_opert/_zzx/ceph/"
 Filename="new_image_20180918.txt"
 
-pool={"GZNXG0100":1, "GZNXG0101":2, "GZNXG0102":3, "GZNXG0103":4, "GZNXG0104":5, "GZNXG0105":6, "GZNXG0106":7}
+pool={"GZNXG0100":1}
 
 insert="insert into rf_image " \
        "(image_id,disk_id,image_name,bind_status,fault_status,status,enable_status,pool_id,creater,create_time)"
